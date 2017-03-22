@@ -1,8 +1,24 @@
 {
   "name": "testalbert",
-   "version": "0.0.1",
-  "engines": {
-    "node": ">=0.4.7 <0.7.0",
-    "npm": ">=1.0.0"
+  "version": "0.0.1",
+  "description": "POC for socket io with Unity",
+  "main": "vendor/node-semver/test.js",
+  "scripts": {
+  
+    "start": "node vendor/node-semver/semver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "albert"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "author": "albert",
+  "license": "",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.6",
+    "socket.io-client": "^1.3.6"
   }
 }
