@@ -1,9 +1,8 @@
 {
   "name": "testalbert",
-  "version": "0.0.1",
-
+   "version": "0.0.1",
   "engines": {
-    "node": "0.6.11",
-    "npm": "1.1.9"
+    "node": ">=0.4.7 <0.7.0",
+    "npm": ">=1.0.0"
   }
 }
